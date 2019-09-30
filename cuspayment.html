@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>payment page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg text-light navbar-light bg-primary">
+                <div class="container">
+                <a class="navbar-brand" href="index.html"><button type="button" class="btn btn-light"><img src="newpic/plo.jpg"></button></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent2" aria-controls="navbarSupportedContent2" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent2">
+                                 <ul class="navbar-nav ml-auto">
+                                
+                                        <li class="nav-item"><a class=" nav-link text-light" href="index.html">Home</a></li>
+                                        <li class="nav-item dropdown text-light">
+                                                <a class="nav-link text-light dropdown-toggle" href="#" id="navbardrop"  data-toggle="dropdown" >
+                                                  Products
+                                                </a>
+                                                <div class="dropdown-menu" >
+                                                  <a class="dropdown-item" href="lapcom.html">Phones/Computers</a>
+                                                  <a class="dropdown-item" href="Wears.html">Wears</a>
+                                                 
+                                                  <a class="dropdown-item" href="electronics.html">Electronics</a>
+                                                  <a class="dropdown-item" href="furniture.html">Furniture</a>
+                                                 </div>
+                                              </li>
+                                        <li class="nav-item"><a class=" nav-link text-light" href="Contact.html">Contacts</a></li>
+                                        <li class="nav-item"><a class=" nav-link text-light" href="login.html">Login</a></li>
+                                         
+                                          
+                                        </ul>
+                                </div>
+                              
+                                    </div>
+                            </nav>
+ <div class="container">
+     <div class="row offset-md-3">
+         <div class="col-md-8">
+
+      
+
+           
+
+<article class="payment-card">
+        <div class="card-body p-5 ">
+        <p class="text-center"> <img class="img-fluid payment-card" src="newpic/pay-visa.png" width="65" height="38"> 
+            <img class="img-fluid payment-card "  src="newpic/pay-visa-el.png" width="65" height="38"> 
+           <img class="img-fluid payment-card" src="newpic/pay-mastercard.png" width="65" height="38">
+           <img class="img-fluid payment-card" src="newpic/pay-american-ex.png" width="65" height="38" > </p>
+        <p class="alert alert-success">Some text success or error</p>
+        
+        <form role="form">
+        <div class="form-group">
+        <label for="username">Full name (on the card)</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control" name="username" placeholder="" required="">
+        </div> <!-- input-group.// -->
+        </div> <!-- form-group.// -->
+        
+        <div class="form-group">
+        <label for="cardNumber">Card number</label>
+        <div class="input-group">
+            <div class="input-group-prepend">
+                <span class="input-group-text"><i class="fa fa-credit-card"></i></span>
+            </div>
+            <input type="text" class="form-control" name="cardNumber" placeholder="">
+        </div> <!-- input-group.// -->
+        </div> <!-- form-group.// -->
+        
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="form-group">
+                    <label><span class="hidden-xs">Expiration</span> </label>
+                    <div class="form-inline">
+                        <select class="form-control" style="width:45%">
+                          <option>MM</option>
+                          <option>01 - Janiary</option>
+                          <option>02 - February</option>
+                          <option>03 - February</option>
+                        </select>
+                        <span style="width:10%; text-align: center"> / </span>
+                        <select class="form-control" style="width:45%">
+                          <option>YY</option>
+                          <option>2018</option>
+                          <option>2019</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="form-group">
+                    <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+                    <input class="form-control" required="" type="text">
+                </div> <!-- form-group.// -->
+            </div>
+        </div> <!-- row.// -->
+        <button class="subscribe btn btn-primary btn-block" type="button"> Confirm  </button>
+        </form>
+        </div> <!-- card-body.// -->
+        </article> <!-- card.// -->
+        
+    </div>
+</div>
+</div>       
+
+        
+
+<footer class="bg-primary">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col text-light ">
+                    <p> &copy; Copy2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+</body>
+</html>
